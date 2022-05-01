@@ -18,3 +18,27 @@ html {
 	font-weight: bolder;
 	margin-left: auto;
 }
+
+.rightnav {
+	background: gray;
+	max-width: 580px;
+	min-height: 64px;
+	margin: auto;
+	margin-top: 16px;
+	border-radius: 16px;
+	display: flex;
+	justify-content: center;
+}
+
+.rightnav img {
+	height: 32px;
+	margin: 16px;
+	margin-right: 12px;
+}
+
+.rightnav p {
+	color: black;
+	margin-top: 22px;
+	font-size: 18px;
+	font-weight: bold;
+}
