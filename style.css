@@ -1,0 +1,20 @@
+html {
+	font-family: basic-sans, sans-serif;
+}
+
+.navbar {
+	display: inline-flex;
+	align-items: center;
+}
+
+.leftnav p {
+	font-size: 48px;
+	font-weight: bolder;
+	margin: 0px;
+}
+
+.rightnav p {
+	font-size: 24px;
+	font-weight: bolder;
+	margin-left: auto;
+}
