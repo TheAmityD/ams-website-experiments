@@ -3,42 +3,35 @@ html {
 }
 
 .navbar {
-	display: inline-flex;
+	display: flex;
 	align-items: center;
+	justify-content: space-between;
+	border: 2px solid black;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+}
+
+.navbar p {
+	margin: 0;
 }
 
 .leftnav p {
-	font-size: 48px;
+	font-size: 32px;
 	font-weight: bolder;
-	margin: 0px;
+	margin: 16px;
 }
 
 .rightnav p {
 	font-size: 24px;
 	font-weight: bolder;
-	margin-left: auto;
-}
-
-.rightnav {
-	background: gray;
-	max-width: 580px;
-	min-height: 64px;
-	margin: auto;
-	margin-top: 16px;
-	border-radius: 16px;
-	display: flex;
-	justify-content: center;
-}
-
-.rightnav img {
-	height: 32px;
+	text-align: right;
 	margin: 16px;
-	margin-right: 12px;
 }
 
-.rightnav p {
-	color: black;
-	margin-top: 22px;
-	font-size: 18px;
-	font-weight: bold;
+.navbutton {
+	background-color: gray;
+	border-radius: 24px;
 }
